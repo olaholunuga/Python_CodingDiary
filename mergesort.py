@@ -15,10 +15,10 @@ def merge(firstArr, secondArr):
             j += 1
     if i < len_f:
         for x in range(i, len_f):
-            new_arr.append(firstArr[i])
+            new_arr.append(firstArr[x])
     if j < len_s:
         for x in range(j, len_s):
-            new_arr.append(secondArr[j])
+            new_arr.append(secondArr[x])
     print(new_arr)
     return new_arr
 
